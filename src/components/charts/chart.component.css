@@ -1,0 +1,106 @@
+.justmiine-graph-core {
+  padding: 30px;
+  overflow: visible;
+}
+
+.justmiine-graph-grid-h,
+.justmiine-graph-grid-v {
+  stroke: #3f536e;
+  stroke-width: 1px;
+}
+
+.justmiine-graph-border-rect {
+  fill: transparent;
+  stroke: #3f536e;
+  stroke-width: 1px;
+}
+
+.justmiine-graph-labels {
+  color: #8dabc4;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 12px;
+  letter-spacing: 2px;
+}
+
+.justmiine-graph-indicators {
+  overflow: visible;
+}
+
+.justmiine-graph-indicators > rect {
+  fill: #26374c;
+  stroke: #8dabc4;
+  stroke-width: 1px;
+}
+
+.justmiine-graph-indicators > foreignObject {
+  font-family: sans-serif;
+  font-size: 9px;
+  line-height: 9px;
+  letter-spacing: 0.5;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.justmiine-chart-indicator-line {
+  stroke: #8dabc4;
+  stroke-dasharray: 4;
+  stroke-width: 1;
+}
+
+.justmiine-chart-point {
+  fill: #212f40;
+  shape-rendering: geometricPrecision;
+}
+
+.justmiine-chart-point.hover {
+  stroke: #ffffff;
+  stroke-width: 2px;
+}
+
+.green {
+  stroke: #1dc66c;
+  stroke-width: 1px;
+  fill: rgba(29, 198, 108, 0.2);
+}
+
+.green.active {
+  stroke: #1dc66c;
+  stroke-width: 1px;
+  fill: #1dc66c;
+}
+
+.yellow {
+  stroke: #fec245;
+  stroke-width: 1px;
+  fill: rgba(254, 194, 69, 0.1);
+}
+.yellow.active {
+  stroke: #fec245;
+  stroke-width: 1px;
+  fill: #fec245;
+}
+
+.orange {
+  stroke: #f39143;
+  stroke-width: 1px;
+  fill: rgba(243, 145, 67, 0.2);
+}
+.orange.active {
+  stroke: #f39143;
+  stroke-width: 1px;
+  fill: #f39143;
+}
+
+.red {
+  stroke: #ff3b30;
+  stroke-width: 1px;
+  fill: rgba(255, 59, 48, 0.2);
+}
+.red.active {
+  stroke: #ff3b30;
+  stroke-width: 1px;
+  fill: #ff3b30;
+}
